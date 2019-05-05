@@ -72,7 +72,7 @@ func main() {
 	runtime.GOMAXPROCS(runtime.NumCPU())
 
 	// The only command line arg is the config file
-	configPath := flag.String("config-dir", ".", "Directory that contains the configuration file")
+	configPath := flag.String("config-dir", ".", "Directory that contains the configuration file sin")
 	flag.Parse()
 
 	// Load the configuration from the file
